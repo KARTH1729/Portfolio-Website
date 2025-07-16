@@ -41,16 +41,6 @@
       padding: 0.5em 1em;
       border-radius: 10px;
     }
-    .btn-hero {
-      background-color: #ef233c;
-      color: white;
-      border: none;
-      padding: 12px 30px;
-      margin-top: 20px;
-    }
-    .btn-hero:hover {
-      background-color: #d90429;
-    }
     .section-title {
       font-size: 2.5rem;
       font-weight: bold;
@@ -58,11 +48,10 @@
       color: #2b2d42;
     }
     .about-img-custom {
-  max-width: 70%;
-  border-radius: 50%; /* Makes it circular */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
+      max-width: 70%;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
     #about {
       background-color: #edf2f4;
     }
@@ -75,9 +64,6 @@
       transform: translateY(-8px);
       box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     }
-    #contact {
-      background-color: #fefefe;
-    }
     footer {
       background-color: #2b2d42;
       color: white;
@@ -85,10 +71,6 @@
     }
     footer a {
       color: #ef233c;
-    }
-    .btn-contact-center {
-      display: flex;
-      justify-content: center;
     }
   </style>
 </head>
@@ -104,7 +86,6 @@
           <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -112,7 +93,6 @@
 
   <section id="hero" class="hero">
     <h1>Hello, I'm Shivakarthikeya</h1>
-    <a href="#contact" class="btn btn-hero">Contact Me</a>
   </section>
 
   <section id="about" class="py-5">
@@ -121,7 +101,6 @@
       <div class="row align-items-center">
         <div class="col-md-6" data-aos="fade-right">
           <img src="img2.jpg" class="about-img-custom mx-auto d-block img-fluid" alt="About Image">
-
         </div>
         <div class="col-md-6" data-aos="fade-left">
           <p class="lead">Creative developer passionate about designing sleek and responsive user interfaces. Skilled in modern front-end tech and always eager to bring ideas to life through design and code.</p>
@@ -164,25 +143,6 @@
       </div>
       <div class="text-center mt-4">
         <a href="https://github.com/KARTH1729" target="_blank" class="btn btn-outline-danger">More Projects on GitHub</a>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="contact" class="py-5">
-    <div class="container">
-      <h2 class="text-center section-title" data-aos="fade-up">Let's Connect</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-6" data-aos="zoom-in">
-          <form>
-            <input type="text" class="form-control mb-3" placeholder="Your Name" required>
-            <input type="email" class="form-control mb-3" placeholder="Your Email" required>
-            <textarea class="form-control mb-3" rows="5" placeholder="Your Message" required></textarea>
-            <div class="btn-contact-center">
-              <button type="submit" class="btn btn-danger">Send</button>
-            </div>
-          </form>
-        </div>
       </div>
     </div>
   </section>
